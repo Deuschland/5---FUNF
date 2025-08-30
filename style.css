@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 6px 10px;
+  font-size: 1em;
+}
+
+#output {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+#output span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0077cc;
+}
